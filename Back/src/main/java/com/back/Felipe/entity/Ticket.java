@@ -10,6 +10,7 @@ import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
+import java.util.List;
 
 @Getter
 @Setter
@@ -38,6 +39,6 @@ public class Ticket {
 
     private String imagem;
 
-    //private list<>  mudancas;
+    private List<MundacasStatus> mudancas ;
 
 }
