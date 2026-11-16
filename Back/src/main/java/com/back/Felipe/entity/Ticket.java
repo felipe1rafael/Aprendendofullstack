@@ -39,6 +39,6 @@ public class Ticket {
 
     private String imagem;
 
-    private List<MundacasStatus> mudancas ;
+    private List<ChargeStatus> mudancas ;
 
 }

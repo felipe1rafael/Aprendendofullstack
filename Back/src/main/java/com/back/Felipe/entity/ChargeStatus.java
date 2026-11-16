@@ -12,7 +12,7 @@ import java.util.Date;
 @Getter
 @Setter
 @Document
-public class MundacasStatus {
+public class ChargeStatus {
 
     @Id
     private String id;
