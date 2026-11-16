@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface ChargeStatusRepository extends MongoRepository<ChargeStatus, String> {
 
-    Iterable<ChargeStatus> findByTicketIdOrderByDateChargeStatusDesc(String ticketId);
+    Iterable<ChargeStatus> findByTicketIdOrderByDateDesc(String ticketId);
 
 
 }
