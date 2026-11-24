@@ -6,6 +6,7 @@ import com.back.Felipe.Enum.StatusEnum;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.annotation.Transient;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -39,6 +40,7 @@ public class Ticket {
 
     private String imagem;
 
+    @Transient
     private List<ChargeStatus> mudancas ;
 
 }
